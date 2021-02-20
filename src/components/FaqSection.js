@@ -17,6 +17,7 @@ const FaqSection = () => {
       <h2>
         Any Questions<span>FAQ</span>
       </h2>
+      {/* AnimateSharedLayout from framermotion lets detects if the layout changes, which it does when we toggle each question. Wrap around entire component/components */}
       <AnimateSharedLayout>
         <Toggle title="How Do I Start?">
           <div className="answer">
