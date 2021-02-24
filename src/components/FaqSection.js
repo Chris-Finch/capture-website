@@ -21,26 +21,38 @@ const FaqSection = () => {
       <AnimateSharedLayout>
         <Toggle title="How Do I Start?">
           <div className="answer">
-            <p>lorem ipsum dolor sit amet.</p>
-            <p>lorem ipsum dolor sit amet conster jdfklcui etc.</p>
+            <p>Get in contact with one of our experienced coaches.</p>
+            <p>We can work together on a plan that is right for you.</p>
           </div>
         </Toggle>
         <Toggle title="Daily Schedule">
           <div className="answer">
-            <p>lorem ipsum dolor sit amet.</p>
-            <p>lorem ipsum dolor sit amet conster jdfklcui etc.</p>
+            <p>Train from anywhere in the world.</p>
+            <p>
+              Our coaches will help you build a plan that fits your busy life,
+              whether you have access to a gym or not.
+            </p>
           </div>
         </Toggle>
-        <Toggle title="Different Payment Methods">
+        <Toggle title="Payment Methods">
           <div className="answer">
-            <p>lorem ipsum dolor sit amet.</p>
-            <p>lorem ipsum dolor sit amet conster jdfklcui etc.</p>
+            <p>
+              We will work with you on a payment plan that meets your needs.
+            </p>
+            <p>
+              Short-term or long-term, we have a flexible payment plan for
+              everybody.
+            </p>
           </div>
         </Toggle>
-        <Toggle title="What Products do you Offer?">
+        <Toggle title="What Services do you Offer?">
           <div className="answer">
-            <p>lorem ipsum dolor sit amet.</p>
-            <p>lorem ipsum dolor sit amet conster jdfklcui etc.</p>
+            <p>We offer full fitness programs for any goals.</p>
+            <p>
+              Whether you are paleo, keto, gluten-free, or vegan, we offer
+              nutrition programs best suited to your individual goals and
+              dietary restrictions.
+            </p>
           </div>
         </Toggle>
       </AnimateSharedLayout>

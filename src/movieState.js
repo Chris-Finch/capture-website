@@ -1,79 +1,79 @@
 //Import Images
-import athlete from "./img/athlete-small.png";
-import goodtimes from "./img/goodtimes-small.png";
-import theracer from "./img/theracer-small.png";
-import athlete2 from "./img/athlete2.png";
-import goodtimes2 from "./img/good-times2.jpg";
-import theracer2 from "./img/the-racer2.jpg";
+import athlete from "./img/run2.jpg";
+import goodtimes from "./img/mntclimb3.jpg";
+import theracer from "./img/cycling4.jpg";
+import athlete2 from "./img/run3.jpg";
+import goodtimes2 from "./img/mntclimb4.jpg";
+import theracer2 from "./img/cycling3.jpg";
 
 export const MovieState = () => {
   return [
     {
-      title: "The Athlete",
+      title: "Running",
       mainImg: athlete,
       secondaryImg: athlete2,
       url: "/work/the-athlete",
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Speed",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Our coaches will help you increase your speed to accomplish your racing goals.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Endurance",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Increase your distance and run further than you thought you could.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Efficiency",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“We'll help you run farther and faster while using less energy.”",
         },
       ],
     },
     {
-      title: "Good Times",
+      title: "Mountain",
       mainImg: goodtimes,
       url: "/work/good-times",
       secondaryImg: goodtimes2,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Mountain Strong",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Build the necessary strength for carrying weight at high altitude.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Speed",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Faster is safer in the mountains. Increase your cardiovascular strength to move faster than ever before.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Nutrition",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Learn to fuel your body correctly for long days in the mountains.”",
         },
       ],
     },
     {
-      title: "The Racer",
+      title: "Cycling",
       mainImg: theracer,
       url: "/work/the-racer",
       secondaryImg: theracer2,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Speed",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Our coaches will help you increase your speed to accomplish your racing goals.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Endurance",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Increase your distance and ride further than you thought you could.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Efficiency",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“We'll help you ride farther and faster while using less energy.”",
         },
       ],
     },

@@ -1,9 +1,9 @@
 // Images
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import athlete from "../img/athlete-small.png";
-import theracer from "../img/theracer-small.png";
-import goodtimes from "../img/goodtimes-small.png";
+import athlete from "../img/run1.jpg";
+import theracer from "../img/cycling2.jpg";
+import goodtimes from "../img/mntclimb1.jpg";
 // Animations
 import { motion } from "framer-motion";
 import {
@@ -36,7 +36,7 @@ const OurWork = () => {
         <Frame4 variants={slider}></Frame4>
       </motion.div>
       <StyledMovie>
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.h2 variants={fade}>Running</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-athlete">
           <Hide>
@@ -50,7 +50,7 @@ const OurWork = () => {
         animate={controls}
         initial="hidden"
       >
-        <h2>The Racer</h2>
+        <h2>Cycling</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-racer">
           <img src={theracer} alt="theracer" />
@@ -62,7 +62,7 @@ const OurWork = () => {
         animate={controls2}
         initial="hidden"
       >
-        <h2>Good Times</h2>
+        <h2>Mountain</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/good-times">
           <img src={goodtimes} alt="goodtimes" />

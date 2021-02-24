@@ -1,4 +1,4 @@
-import home1 from "../img/home1.png";
+import home1 from "../img/gym1.jpg";
 // Styled
 import {
   StyledAbout,
@@ -24,16 +24,17 @@ const AboutSection = () => {
           </StyledHide>
           <StyledHide>
             <motion.h2 variants={titleAnim}>
-              your <span>dreams</span> come
+              your <span>fitness</span> goals
             </motion.h2>
           </StyledHide>
           <StyledHide>
-            <motion.h2 variants={titleAnim}>true.</motion.h2>
+            <motion.h2 variants={titleAnim}>reality.</motion.h2>
           </StyledHide>
         </motion.div>
         <motion.p variants={fade}>
-          Contact us for any photography or videography ideas that you have. We
-          have professionals with amazing skills.
+          We work to get you ready for your next race, adventure, expedition, or
+          just daily life through our specialized fitness and nutrition
+          programs.
         </motion.p>
         <Link to="/contact">
           <motion.button variants={fade}>Contact Us</motion.button>

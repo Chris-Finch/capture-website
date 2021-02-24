@@ -3,7 +3,7 @@ import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
+import home2 from "../img/workout1.jpg";
 // Styles
 import { StyledAbout, StyledImage, StyledDescription } from "../styles";
 import styled from "styled-components";
@@ -29,28 +29,36 @@ const ServicesSection = () => {
               <img alt="icon" src={clock} />
               <h3>Efficient</h3>
             </div>
-            <p>lorem ipsum dolor sit amet.</p>
+            <p>
+              We work with your schedule to get the most out of your training.
+            </p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
               <img alt="icon" src={teamwork} />
               <h3>Team Work</h3>
             </div>
-            <p>lorem ipsum dolor sit amet.</p>
+            <p>
+              Our coaches work with you from beginning to end to get the results
+              you need.
+            </p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
               <img alt="icon" src={diaphragm} />
-              <h3>Diaphragm</h3>
+              <h3>Tracking</h3>
             </div>
-            <p>lorem ipsum dolor sit amet.</p>
+            <p>
+              Whether you want to improve power, speed, or endurance, we track
+              your progress over time to ensure you meet your goals.
+            </p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
               <img alt="icon" src={money} />
               <h3>Affordable</h3>
             </div>
-            <p>lorem ipsum dolor sit amet.</p>
+            <p>We can customize any program to meet your financial needs.</p>
           </StyledCard>
         </StyledCards>
       </StyledDescription>
