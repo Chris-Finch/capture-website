@@ -10,7 +10,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <Link id="logo" to="/">
-          Finch Fitness & Nutrition
+          Mountain Fitness & Nutrition
         </Link>
       </h1>
       <ul>
